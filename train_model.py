@@ -10,6 +10,7 @@ from ml.model import (
     load_model,
     save_model,
     train_model,
+    performance_on_categorical_slice
 )
 # TODO: load the cencus.csv data
 project_path = "."
