@@ -1,0 +1,43 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            qt5edvbq8hhihb9berqoc69w13205aom:
+                args:
+                    - artifact
+                    - put
+                    - -n
+                    - model-latest
+                    - model/model.pkl
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "2160158191616"
+                        used: "395458572288"
+                email: dmare13@wgu.edu
+                executable: /opt/venv/bin/python
+                git:
+                    commit: b640cf0dea2252000fe7ec9881904ec95c92ca76
+                    remote: https://github.com/dmarek5/Deploying-a-Scalable-ML-Pipeline-with-FastAPI.git
+                host: 04efde51451070334144eae44639fa7813f05efb-59b869cdc6-r7cnh
+                memory:
+                    total: "135077654528"
+                os: Linux-6.6.97+-x86_64-with-glibc2.31
+                program: /opt/venv/bin/wandb
+                python: CPython 3.10.13
+                root: /workspace/Deploying-a-Scalable-ML-Pipeline-with-FastAPI
+                startedAt: "2025-12-27T22:37:15.186190Z"
+                writerId: qt5edvbq8hhihb9berqoc69w13205aom
+        m: []
+        python_version: 3.10.13
+        t:
+            "3":
+                - 2
+                - 16
+            "4": 3.10.13
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+path:
+    value: model/model.pkl
